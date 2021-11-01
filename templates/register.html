@@ -32,28 +32,28 @@
     <br>
     <form action="" method="post">
         <label for="firstname"><b>Firstname</b></label>
-        <input type="text" placeholder="Firstname" name="firstname" value="{{
+        <input type="text" placeholder="Firstname" name="firstname" id="firstname" value="{{
           request.form.firstname }}">
         <br/>
         <label for="lastname"><b>Lastname</b></label>
-        <input type="text" placeholder="Lastname" name="lastname" value="{{
+        <input type="text" placeholder="Lastname" name="lastname" id="lastname" value="{{
           request.form.lastname }}">
         <br/>
         <label for="email"><b>Email</b></label>
-        <input type="text" placeholder="Email" name="email" value="{{
+        <input type="text" placeholder="Email" name="email" id="email" value="{{
           request.form.email }}">
         <br/>
          <label for="username"><b>Username</b></label>
-        <input type="text" placeholder="Username" name="username" value="{{
+        <input type="text" placeholder="Username" name="username" id="username"value="{{
           request.form.username }}">
         <br/>
         <label for="password"><b>Password</b></label>
-        <input type="password" placeholder="Password" name="password" value="{{
+        <input type="password" placeholder="Password" name="password" id="password" value="{{
           request.form.password }}">
         <br/>
-        <label for="confirmpassword"><b>Confirm password</b></label>
-        <input type="password" placeholder="confirmpassword" name="confirmpassword" value="{{
-          request.form.confirmpassword }}">
+        <label for="confirm_password"><b>Confirm password</b></label>
+        <input type="password" placeholder="confirm_password" name="confirm_password" id="confirm_password" value="{{
+          request.form.confirm_password }}">
         <br/>
         <input class="btn btn-default" type="submit" value="Register">
     </form>
